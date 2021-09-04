@@ -1,0 +1,5 @@
+{
+  "editor.autoClosingBrackets": "always",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 18
+}
