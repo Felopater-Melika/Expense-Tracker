@@ -4,7 +4,7 @@ import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
 
   const clickHandler = () => {
@@ -21,6 +21,6 @@ function ExpenseItem(props) {
       <button onClick={clickHandler}> Change Title</button>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;
